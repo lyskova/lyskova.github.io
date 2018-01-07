@@ -1,0 +1,54 @@
+// .header{
+// 	font-size: 20px;
+// 	line-height: 1.5;
+// 	margin: 60px auto;
+// 	&:hover{
+// 		background-color: #ddd;
+// 	}
+// }
+
+
+// &-родитель
+
+
+// миксины
+
+.font(@fz:25px){
+	font-size: @fz;
+	text-transform: uppercase;
+	line-height: 1.5;
+}
+
+
+.header{
+	.font();
+}
+
+.section-header{
+	.font();
+	background-color: @bg;
+}
+
+.h{
+	.font(10px);
+}
+// переменные
+
+@bg: #896;
+@border:1px solid red;
+
+
+
+.span{
+	.font();
+	 background-color: @bg;
+}
+
+.head{
+	border:@border;
+	background-color: @bg;
+
+}
+
+// сниппеты
+
