@@ -1,3 +1,3 @@
 # Татьяна Лыскова
 
-[тест проект](https://lyskova.github.io/lessons_12/ "тест проект")
+[Проект №1](https://lyskova.github.io/lessons_12/ "тест проект") - тестовый проект
